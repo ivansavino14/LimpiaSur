@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+     background-color: black;
+    }
+.logo {
+    margin: 20px 5px 5px 20px;
+}
+h1 {
+   font-size: small;
+   color: lightseagreen;
+   font-style: normal;
+   font-weight: bold;
+   padding: 15px 0px 0px 15px;
+   text-decoration: underline;
+}
+header nav ul {
+    list-style: none;
+    margin: 5px 10px 0px 0px;
+    padding: 0px 5px 25px 0px;
+    text-align: right;
+}
+header nav ul li {
+    display: inline-block;
+}
+header nav ul li a { 
+    color: lightseagreen;
+    text-decoration: none;
+    padding: 50px;
+    display: block;
+    padding: 10px;
+}
+header nav ul li a:hover {
+    background-color: darkslategray;
+}
+main {
+    background-color: black;
+}
+h3 {
+    padding: 15px 0px 10px 0px;
+    color: lightseagreen;
+    font-weight: bold;
+    font-style: normal;
+    text-decoration: underline;
+    text-align: center;
+}
+footer {
+    background-color: black;
+    padding: 10px 5px 10px 5px;
+}
+h4 {
+    font-style: normal;
+    color: lightseagreen;
+}
+footer div ul {
+    text-align: left;
+}
+footer div ul li {
+    display: inline-block;
+}
+.parrafo {
+    color: white;
+    font-size: medium;
+    font-style: italic;
+    padding: 20px;} 
+.listabca {
+    color: white;
+}
+.info {
+    color: lightseagreen;
+    text-align: right;
+    text-decoration: underline;
+    padding-right: 160px;
+    padding-top: 150px;
+}
+.infoa {
+    margin: 0px 60px 5px 0px;
+    font-style: normal;
+    text-decoration: underline;
+}
+.infoc {
+    padding-left: 20px;
+}
+.promo {
+    margin:0 auto;
+}
+.titulosp {
+    padding: 10px;
+    text-align: center;
+    text-decoration: underline;
+    color: white;
+    font-size: medium;
+    font-style: normal;
+    font-weight: bold;
+    position: center;
+}
+.parrafo {
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: medium;
+    font-style: italic;
+} 
+
+.nos {
+    text-align: center;
+    padding-top: 50px ;
+}
+.formulario {
+    text-align: center;
+    padding-top: 50px;
+}
+.tformulario {
+    text-align: center;
+    text-decoration: underline;
+    font-size: large;
+    font-weight: bold;
+    color: white;
+    padding: 15px;
+}
+.provincia {
+    color: white;
+}
+.mapa{
+    text-align: center;
+    padding-top: 100px;
+}
+.promot {
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+}
+.promo10 {
+    color: white;
+    text-align: center;
+}
+.promono {
+    color: white;
+    font-size: smaller;
+    text-align: center;
+}
+.promos {
+    text-align: center;
+    padding-top: 50px;
+    padding: 25px;
+}
+.promoss {
+    text-align: center;
+    padding: 25px;
+}
+.imagenes {
+    padding: 10px 0px;
+    text-align: center;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+.menu {
+    padding-top: 50px;
+    padding-right: 30px;
+}
+.productos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3 ,1fr);
+    justify-items: center;
+    align-items: center;
+    color: white;
+}
+.productos_item {
+    padding: 15px;
+}
+h4 { 
+    text-decoration: underline;
+    padding: 10px 10px;
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+.infoa {
+    color: lightseagreen;
+    padding-left: 60px;
+    text-decoration: underline;
+}
+footer {
+   padding: 15px;
+}
+.footizq {
+    padding-left: 140px;
+    padding-top: 150px;
+}
+
+
+
+
+
+
+
+
+
+
+                
