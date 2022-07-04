@@ -176,6 +176,10 @@ footer div ul li {
 }
 .productos_item {
     padding: 15px;
+    text-align: center;
+}
+.productos_item :hover {
+    transform: translateY(-20px);
 }
 h4 { 
     text-decoration: underline;
@@ -198,14 +202,37 @@ footer {
     padding-left: 140px;
     padding-top: 150px;
 }
+@media screen and (max-width: 768px) {
+    main section img {
+        width: 300px;
+        height: 300px;
+    }
+    .productos_item {
+        padding: 5px;
+    }
+    h4 {
+        display: none;
+    }
+    .infoa {
+        display: none;
+    }
+    footer div iframe {
+        display: none;
+    }
+    .infob {
+        display: none;
+    }
+    footer {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .footizq {
+        padding-left: 0px;
+        padding-top: 100px;
+    }
+}
 
 
 
-
-
-
-
-
-
-
-                
+               
